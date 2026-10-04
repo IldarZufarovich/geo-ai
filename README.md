@@ -9,6 +9,45 @@ legacy geological documents, geological imagery, Document AI,
 Computer Vision, structured interpretation and traceable reporting.
 
 > **Release status:** v4.0 · 51/51 final smoke checks passed · Functional freeze approved
+---
+
+## Product Showcase
+
+### Hardware-Aware GEO AI Workspace
+
+One interface combines runtime selection, CPU/GPU execution profiles,
+multimodal routing, Document AI and geological Computer Vision.
+
+![GEO AI v4.0 interface](docs/screenshots/01-geo-ai-overview.png)
+
+### Multimodal Content Routing
+
+Legacy geological assets are inspected and routed into Document AI
+and Computer Vision branches with explicit execution traceability.
+
+![Multimodal routing](docs/screenshots/04-multimodal-routing.png)
+
+### Geological Computer Vision
+
+Rock Vision converts routed geological imagery into semantic classes,
+individual objects and quantitative geological measurements.
+
+![Rock Vision before and after](docs/screenshots/02-rock-vision-before-after.png)
+
+### Structured Geological Interpretation
+
+Image-derived measurements and document-derived properties are kept
+separate and presented with preliminary geological interpretation.
+
+![AI geological interpretation](docs/screenshots/03-ai-geological-interpretation.png)
+
+### Document AI
+
+OCR and active text are transformed into structured, human-readable
+geological information while retaining provenance and confidence.
+
+![Document AI result](docs/screenshots/05-document-ai-result.png)
+
 
 ---
 
