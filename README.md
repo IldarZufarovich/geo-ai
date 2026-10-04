@@ -4,6 +4,20 @@
 
 **From Legacy Geological Assets to Traceable Digital Intelligence**
 
+<!-- GEOAI_LIVE_START -->
+
+<p align="center">
+  <a href="https://protective-worldwide-nail-finances.trycloudflare.com">
+    <strong>🚀 LIVE DEMO — GEO AI v4.0</strong>
+  </a>
+</p>
+
+<p align="center">
+  <em>Interactive multimodal geological AI prototype · Open directly in your browser</em>
+</p>
+
+<!-- GEOAI_LIVE_END -->
+
 GEO AI v4.0 is a hardware-aware multimodal AI prototype for
 legacy geological documents, geological imagery, Document AI,
 Computer Vision, structured interpretation and traceable reporting.
