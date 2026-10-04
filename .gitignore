@@ -1,0 +1,55 @@
+# ============================================================
+# GEO AI v4.0
+# ============================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+conda-env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Runtime outputs
+outputs/*
+!outputs/.gitkeep
+
+# Logs / temporary files
+*.log
+*.tmp
+
+# Local model weights
+models/**/*.pt
+models/**/*.pth
+models/**/*.ckpt
+models/**/*.onnx
+models/**/*.safetensors
+
+# Development backups
+_backup*/
+*backup_before*
+*.backup
+*.broken
+
+# Local secrets
+.env
+*.pem
+*.key
+
+# Internal development history
+docs/history/

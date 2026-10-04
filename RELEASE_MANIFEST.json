@@ -1,0 +1,85 @@
+{
+  "project": "GEO AI",
+  "version": "4.0",
+  "release": "universal",
+  "type": "portfolio / research prototype",
+  "runtime_profiles": [
+    "AUTO",
+    "Lightweight CPU",
+    "Advanced GPU",
+    "Research GPU"
+  ],
+  "analysis_quality": [
+    "Standard",
+    "Detailed",
+    "Deep"
+  ],
+  "deployment_targets": [
+    "Local CPU",
+    "Local CUDA GPU",
+    "Public web deployment",
+    "GPU workstation server"
+  ],
+  "validated_environment": {
+    "gpu": "NVIDIA RTX 4500 Ada Generation",
+    "vram_gb": 23.99,
+    "pytorch": "2.6.0+cu124",
+    "cuda_build": "12.4"
+  },
+  "release_validation": {
+    "checks_passed": 51,
+    "checks_failed": 0,
+    "success_rate_pct": 100.0,
+    "functional_freeze": true
+  },
+  "architecture": {
+    "current_prototype": [
+      "OpenCV",
+      "K-means semantic segmentation",
+      "Morphology",
+      "Watershed",
+      "Connected Components",
+      "scikit-image Regionprops",
+      "PyTorch CUDA"
+    ],
+    "advanced_model_architecture": [
+      "U-Net",
+      "U-Net++",
+      "DeepLabV3+",
+      "YOLO-Seg",
+      "SAM 2"
+    ],
+    "research_extensions": [
+      "Model Ensemble / Fusion",
+      "Geological Fine-Tuning",
+      "High-Resolution Refinement",
+      "Foundation-Model Assistance"
+    ]
+  },
+  "transparency_note": "Advanced models are represented as extensible architecture. Only algorithms explicitly reported in the execution trace are considered executed for a given inference run.",
+  "release_status": "FINAL",
+  "functional_freeze": true,
+  "validation": {
+    "release_smoke_checks": {
+      "passed": 51,
+      "failed": 0,
+      "success_rate_pct": 100.0
+    },
+    "advanced_gpu_checks": {
+      "passed": 14,
+      "failed": 0
+    },
+    "isolated_release_startup": true,
+    "isolated_end_to_end_test": true,
+    "pdf_report_tested": true,
+    "runtime_cache_cleaned": true
+  },
+  "validated_gpu": {
+    "name": "NVIDIA RTX 4500 Ada Generation",
+    "vram_gb": 23.99,
+    "pytorch": "2.6.0+cu124",
+    "cuda_build": "12.4"
+  },
+  "release_note": "One universal GEO AI v4.0 codebase supporting portable CPU execution, CUDA-enabled Advanced GPU execution and extensible Research GPU architecture.",
+  "github_ready": true
+}
